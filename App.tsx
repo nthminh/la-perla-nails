@@ -1,6 +1,5 @@
-
 import React, { useState, useRef, useEffect } from 'react';
-import { generateNailArt } from './services/geminiService';
+import { generateNailArt } from './lib/gemini';
 import { PricingView } from './components/PricingView';
 import { GalleryView } from './components/GalleryView';
 import { PortfolioView } from './components/PortfolioView';
